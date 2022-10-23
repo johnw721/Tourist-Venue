@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title> 
+        What to Do There
+    </title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li class="Logo"> 
+                <a href="../index.html">W.T.D.T </a>
+            </li>
+            <li> 
+                <input class="rounded" type="text" placeholder="Search Places...">
+            </li>
+            <li>
+                <a hef = "/Travels">Travels</a>
+            </li>
+            <li> 
+                <button class="checkout" type="button"> Check Out</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-col-2">
+        <div class="filter">
+            <h3>Filter</h3>
+            <ul>
+                <li>
+                    <select id="Categories">
+                        <option class="Category" value="" disabled selected hidden>Categories of Activities</option>
+                        <option class="Category" value="1">Adventures</option>
+                        <option class="Category" value="2">Musems</option>
+                        <option class="Category" value="3">Wine Tasting</option>
+                        <option class="Category" value="4">Dance</option>
+                        <option class="Category" value="5">Must see Sights</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="Activities">
+                        
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    /* document.getElementById("Categories").addEventListener("change", function(){
+        var ul = document.ul.appendChild("li");
+        var div = document.createElement("div");
+        if (this.value == "1"){
+            div.innerHTML = "Adventures";
+            const content = '<option value="10">Explore Abonded</option><option value="2">Explore Abonded</option><option value="3">Explore Abonded</option><option value="4">Explore Abonded</option><option value="5">Explore Abonded</option>';
+            document.getElementById("Price").appendChild(content);
+        }
+        else if (this.value == "2"){
+            div.innerHTML = "Musems";
+        }
+        else if (this.value == "3"){
+            div.innerHTML = "Wine Tasting";
+        }
+        else if (this.value == "4"){
+            div.innerHTML = "Dance";
+        }
+        else if (this.value == "5"){
+            div.innerHTML = "Must see Sights";
+        }
+    }); */
+
+    console.log(document.getElementsByClassName("Category"));
+;
+</script>
+</html>
